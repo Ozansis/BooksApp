@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/images"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/bookThumbnail"
+        android:layout_width="150dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:contentDescription="@string/book_thumbnail" />
+
+    <TextView
+        android:id="@+id/bookTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Book Title"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:id="@+id/bookAuthors"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Book Authors"
+        android:textSize="24dp"
+        android:textColor="@color/white"
+        android:layout_marginTop="8dp" />
+
+    <TextView
+        android:id="@+id/bookPageCount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Page Count"
+        android:textSize="18sp"
+        android:textColor="@color/white"
+        android:layout_marginTop="8dp" />
+
+    <Button
+        android:id="@+id/addToReadButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Okuduklarıma Ekle"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/addToReadingButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Şu anda Okuduklarıma Ekle"
+        android:layout_marginTop="8dp" />
+
+    <Button
+        android:id="@+id/addToWantToReadButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Okumak İstediklerime Ekle"
+        android:layout_marginTop="8dp" />
+</LinearLayout>
